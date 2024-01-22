@@ -67,5 +67,8 @@ void f_add(stack_t **head, unsigned int counter);
 void f_nop(stack_t **head, unsigned int counter);
 void adding_node(stack_t **head, int n);
 void adding_queue(stack_t **head, int n);
+ssize_t getstdin(char **lineptr, int file);
+char  *clean_line(char *content);
+int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 
 #endif
