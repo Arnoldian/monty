@@ -43,6 +43,8 @@ typedef struct bus_s
 
 extern bus_t bus;
 
+bus_t bus;
+
 /**
  * struct instruction_s - opcode and its function
  * @opcode: the opcode
